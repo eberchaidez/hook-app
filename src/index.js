@@ -13,6 +13,7 @@ import ReactDOMClient from 'react-dom/client'
 // import { MemoHook } from './components/06-memos/MemoHook'
 // import { CallbackHook } from './components/06-memos/CallbackHook'
 // import { Padre } from './components/07-tarea-memo/Padre'
+// este es otro comentario
 import { ToDoApp } from './components/08-useReducer/ToDoApp'
 
 const container = document.getElementById('root')
