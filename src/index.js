@@ -12,10 +12,11 @@ import ReactDOMClient from 'react-dom/client'
 // import { Memorize } from './components/06-memos/Memorize'
 // import { MemoHook } from './components/06-memos/MemoHook'
 // import { CallbackHook } from './components/06-memos/CallbackHook'
-import { Padre } from './components/07-tarea-memo/Padre'
+// import { Padre } from './components/07-tarea-memo/Padre'
+import { ToDoApp } from './components/08-useReducer/ToDoApp'
 
 const container = document.getElementById('root')
 
 const root = ReactDOMClient.createRoot(container)
 
-root.render(<Padre />)
+root.render(<ToDoApp />)
